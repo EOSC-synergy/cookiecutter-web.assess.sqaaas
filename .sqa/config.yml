@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/m-team-kit/cookiecutter-web git:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-blue-beetle.sh
-        container: qc.acc_foggy-corn-wildebeest
+        - /usr/bin/env sh .sqa/script.squirrely-magenta-rabbit.sh
+        container: qc.acc_stealthy-alizarin-giraffe
   QC.Doc:
     repos:
       github.com/m-team-kit/cookiecutter-web find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-grey-setter.sh
-        container: qc.doc_shaggy-ultramarine-bracke
+        - /usr/bin/env sh .sqa/script.crappy-purple-avocet.sh
+        container: qc.doc_leaky-buff-bordeaux
       github.com/m-team-kit/cookiecutter-web git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-beige-cat.sh
-        container: qc.doc_squeaky-coral-octopus
+        - /usr/bin/env sh .sqa/script.pretty-alizarin-mist.sh
+        container: qc.doc_chewy-lavender-dingo
   QC.Lic:
     repos:
       github.com/m-team-kit/cookiecutter-web licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-aquamarine-maltese.sh
-        container: qc.lic_seedy-asparagus-anteater
+        - /usr/bin/env sh .sqa/script.seedy-burgundy-tarantula.sh
+        container: qc.lic_thirsty-amber-axolotl
   QC.Ver:
     repos:
       github.com/m-team-kit/cookiecutter-web get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-teal-harrier.sh
-        container: qc.ver_sloppy-cyan-monster
+        - /usr/bin/env sh .sqa/script.nerdy-dandelion-setter.sh
+        container: qc.ver_goopy-platinum-moose
 timeout: 5400
